@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4830FA9D20C0F2B1000AB40D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830FA9C20C0F2B1000AB40D /* AppDelegate.swift */; };
+		4830FA9F20C0F2B1000AB40D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830FA9E20C0F2B1000AB40D /* ViewController.swift */; };
+		4830FAA220C0F2B1000AB40D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4830FAA020C0F2B1000AB40D /* Main.storyboard */; };
+		4830FAA420C0F2B2000AB40D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4830FAA320C0F2B2000AB40D /* Assets.xcassets */; };
+		4830FAA720C0F2B2000AB40D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4830FAA520C0F2B2000AB40D /* LaunchScreen.storyboard */; };
+		4830FAB220C0F2B2000AB40D /* MengTestGCMSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830FAB120C0F2B2000AB40D /* MengTestGCMSwiftTests.swift */; };
+		4830FABD20C0F2B2000AB40D /* MengTestGCMSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830FABC20C0F2B2000AB40D /* MengTestGCMSwiftUITests.swift */; };
+		9FA13EE08F4B8E9574ECD2A9 /* Pods_MengTestGCMSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808FD5A5662923CB7056B2A3 /* Pods_MengTestGCMSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4830FAAE20C0F2B2000AB40D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4830FA9120C0F2B1000AB40D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4830FA9820C0F2B1000AB40D;
+			remoteInfo = MengTestGCMSwift;
+		};
+		4830FAB920C0F2B2000AB40D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4830FA9120C0F2B1000AB40D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4830FA9820C0F2B1000AB40D;
+			remoteInfo = MengTestGCMSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4830FA9920C0F2B1000AB40D /* MengTestGCMSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MengTestGCMSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4830FA9C20C0F2B1000AB40D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4830FA9E20C0F2B1000AB40D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4830FAA120C0F2B1000AB40D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4830FAA320C0F2B2000AB40D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4830FAA620C0F2B2000AB40D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4830FAA820C0F2B2000AB40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4830FAAD20C0F2B2000AB40D /* MengTestGCMSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MengTestGCMSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4830FAB120C0F2B2000AB40D /* MengTestGCMSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MengTestGCMSwiftTests.swift; sourceTree = "<group>"; };
+		4830FAB320C0F2B2000AB40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4830FAB820C0F2B2000AB40D /* MengTestGCMSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MengTestGCMSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4830FABC20C0F2B2000AB40D /* MengTestGCMSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MengTestGCMSwiftUITests.swift; sourceTree = "<group>"; };
+		4830FABE20C0F2B2000AB40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808FD5A5662923CB7056B2A3 /* Pods_MengTestGCMSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MengTestGCMSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8514FA3F4E4B5BCC8F6839A7 /* Pods-MengTestGCMSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengTestGCMSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MengTestGCMSwift/Pods-MengTestGCMSwift.release.xcconfig"; sourceTree = "<group>"; };
+		C52CF8B49AC54CFA21140C56 /* Pods-MengTestGCMSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengTestGCMSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MengTestGCMSwift/Pods-MengTestGCMSwift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4830FA9620C0F2B1000AB40D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA13EE08F4B8E9574ECD2A9 /* Pods_MengTestGCMSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4830FAAA20C0F2B2000AB40D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4830FAB520C0F2B2000AB40D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3138CB899315062C9B127130 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C52CF8B49AC54CFA21140C56 /* Pods-MengTestGCMSwift.debug.xcconfig */,
+				8514FA3F4E4B5BCC8F6839A7 /* Pods-MengTestGCMSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4830FA9020C0F2B1000AB40D = {
+			isa = PBXGroup;
+			children = (
+				4830FA9B20C0F2B1000AB40D /* MengTestGCMSwift */,
+				4830FAB020C0F2B2000AB40D /* MengTestGCMSwiftTests */,
+				4830FABB20C0F2B2000AB40D /* MengTestGCMSwiftUITests */,
+				4830FA9A20C0F2B1000AB40D /* Products */,
+				3138CB899315062C9B127130 /* Pods */,
+				5246C0408EFA96F679CA9C9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4830FA9A20C0F2B1000AB40D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4830FA9920C0F2B1000AB40D /* MengTestGCMSwift.app */,
+				4830FAAD20C0F2B2000AB40D /* MengTestGCMSwiftTests.xctest */,
+				4830FAB820C0F2B2000AB40D /* MengTestGCMSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4830FA9B20C0F2B1000AB40D /* MengTestGCMSwift */ = {
+			isa = PBXGroup;
+			children = (
+				4830FA9C20C0F2B1000AB40D /* AppDelegate.swift */,
+				4830FA9E20C0F2B1000AB40D /* ViewController.swift */,
+				4830FAA020C0F2B1000AB40D /* Main.storyboard */,
+				4830FAA320C0F2B2000AB40D /* Assets.xcassets */,
+				4830FAA520C0F2B2000AB40D /* LaunchScreen.storyboard */,
+				4830FAA820C0F2B2000AB40D /* Info.plist */,
+			);
+			path = MengTestGCMSwift;
+			sourceTree = "<group>";
+		};
+		4830FAB020C0F2B2000AB40D /* MengTestGCMSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				4830FAB120C0F2B2000AB40D /* MengTestGCMSwiftTests.swift */,
+				4830FAB320C0F2B2000AB40D /* Info.plist */,
+			);
+			path = MengTestGCMSwiftTests;
+			sourceTree = "<group>";
+		};
+		4830FABB20C0F2B2000AB40D /* MengTestGCMSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4830FABC20C0F2B2000AB40D /* MengTestGCMSwiftUITests.swift */,
+				4830FABE20C0F2B2000AB40D /* Info.plist */,
+			);
+			path = MengTestGCMSwiftUITests;
+			sourceTree = "<group>";
+		};
+		5246C0408EFA96F679CA9C9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				808FD5A5662923CB7056B2A3 /* Pods_MengTestGCMSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4830FA9820C0F2B1000AB40D /* MengTestGCMSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4830FAC120C0F2B2000AB40D /* Build configuration list for PBXNativeTarget "MengTestGCMSwift" */;
+			buildPhases = (
+				19100EADFB8BE2C47DD7916D /* [CP] Check Pods Manifest.lock */,
+				4830FA9520C0F2B1000AB40D /* Sources */,
+				4830FA9620C0F2B1000AB40D /* Frameworks */,
+				4830FA9720C0F2B1000AB40D /* Resources */,
+				A87465532508EE47CC5F9871 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MengTestGCMSwift;
+			productName = MengTestGCMSwift;
+			productReference = 4830FA9920C0F2B1000AB40D /* MengTestGCMSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4830FAAC20C0F2B2000AB40D /* MengTestGCMSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4830FAC420C0F2B2000AB40D /* Build configuration list for PBXNativeTarget "MengTestGCMSwiftTests" */;
+			buildPhases = (
+				4830FAA920C0F2B2000AB40D /* Sources */,
+				4830FAAA20C0F2B2000AB40D /* Frameworks */,
+				4830FAAB20C0F2B2000AB40D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4830FAAF20C0F2B2000AB40D /* PBXTargetDependency */,
+			);
+			name = MengTestGCMSwiftTests;
+			productName = MengTestGCMSwiftTests;
+			productReference = 4830FAAD20C0F2B2000AB40D /* MengTestGCMSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4830FAB720C0F2B2000AB40D /* MengTestGCMSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4830FAC720C0F2B2000AB40D /* Build configuration list for PBXNativeTarget "MengTestGCMSwiftUITests" */;
+			buildPhases = (
+				4830FAB420C0F2B2000AB40D /* Sources */,
+				4830FAB520C0F2B2000AB40D /* Frameworks */,
+				4830FAB620C0F2B2000AB40D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4830FABA20C0F2B2000AB40D /* PBXTargetDependency */,
+			);
+			name = MengTestGCMSwiftUITests;
+			productName = MengTestGCMSwiftUITests;
+			productReference = 4830FAB820C0F2B2000AB40D /* MengTestGCMSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4830FA9120C0F2B1000AB40D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = mengJing;
+				TargetAttributes = {
+					4830FA9820C0F2B1000AB40D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4830FAAC20C0F2B2000AB40D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4830FA9820C0F2B1000AB40D;
+					};
+					4830FAB720C0F2B2000AB40D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4830FA9820C0F2B1000AB40D;
+					};
+				};
+			};
+			buildConfigurationList = 4830FA9420C0F2B1000AB40D /* Build configuration list for PBXProject "MengTestGCMSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4830FA9020C0F2B1000AB40D;
+			productRefGroup = 4830FA9A20C0F2B1000AB40D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4830FA9820C0F2B1000AB40D /* MengTestGCMSwift */,
+				4830FAAC20C0F2B2000AB40D /* MengTestGCMSwiftTests */,
+				4830FAB720C0F2B2000AB40D /* MengTestGCMSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4830FA9720C0F2B1000AB40D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4830FAA720C0F2B2000AB40D /* LaunchScreen.storyboard in Resources */,
+				4830FAA420C0F2B2000AB40D /* Assets.xcassets in Resources */,
+				4830FAA220C0F2B1000AB40D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4830FAAB20C0F2B2000AB40D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4830FAB620C0F2B2000AB40D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19100EADFB8BE2C47DD7916D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MengTestGCMSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A87465532508EE47CC5F9871 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MengTestGCMSwift/Pods-MengTestGCMSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MengTestGCMSwift/Pods-MengTestGCMSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4830FA9520C0F2B1000AB40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4830FA9F20C0F2B1000AB40D /* ViewController.swift in Sources */,
+				4830FA9D20C0F2B1000AB40D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4830FAA920C0F2B2000AB40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4830FAB220C0F2B2000AB40D /* MengTestGCMSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4830FAB420C0F2B2000AB40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4830FABD20C0F2B2000AB40D /* MengTestGCMSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4830FAAF20C0F2B2000AB40D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4830FA9820C0F2B1000AB40D /* MengTestGCMSwift */;
+			targetProxy = 4830FAAE20C0F2B2000AB40D /* PBXContainerItemProxy */;
+		};
+		4830FABA20C0F2B2000AB40D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4830FA9820C0F2B1000AB40D /* MengTestGCMSwift */;
+			targetProxy = 4830FAB920C0F2B2000AB40D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4830FAA020C0F2B1000AB40D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4830FAA120C0F2B1000AB40D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4830FAA520C0F2B2000AB40D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4830FAA620C0F2B2000AB40D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4830FABF20C0F2B2000AB40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4830FAC020C0F2B2000AB40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4830FAC220C0F2B2000AB40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C52CF8B49AC54CFA21140C56 /* Pods-MengTestGCMSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MengTestGCMSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.licaifan.MengTestGCMSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4830FAC320C0F2B2000AB40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8514FA3F4E4B5BCC8F6839A7 /* Pods-MengTestGCMSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MengTestGCMSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.licaifan.MengTestGCMSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4830FAC520C0F2B2000AB40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MengTestGCMSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.licaifan.MengTestGCMSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MengTestGCMSwift.app/MengTestGCMSwift";
+			};
+			name = Debug;
+		};
+		4830FAC620C0F2B2000AB40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MengTestGCMSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.licaifan.MengTestGCMSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MengTestGCMSwift.app/MengTestGCMSwift";
+			};
+			name = Release;
+		};
+		4830FAC820C0F2B2000AB40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MengTestGCMSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.licaifan.MengTestGCMSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MengTestGCMSwift;
+			};
+			name = Debug;
+		};
+		4830FAC920C0F2B2000AB40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MengTestGCMSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.licaifan.MengTestGCMSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MengTestGCMSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4830FA9420C0F2B1000AB40D /* Build configuration list for PBXProject "MengTestGCMSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4830FABF20C0F2B2000AB40D /* Debug */,
+				4830FAC020C0F2B2000AB40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4830FAC120C0F2B2000AB40D /* Build configuration list for PBXNativeTarget "MengTestGCMSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4830FAC220C0F2B2000AB40D /* Debug */,
+				4830FAC320C0F2B2000AB40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4830FAC420C0F2B2000AB40D /* Build configuration list for PBXNativeTarget "MengTestGCMSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4830FAC520C0F2B2000AB40D /* Debug */,
+				4830FAC620C0F2B2000AB40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4830FAC720C0F2B2000AB40D /* Build configuration list for PBXNativeTarget "MengTestGCMSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4830FAC820C0F2B2000AB40D /* Debug */,
+				4830FAC920C0F2B2000AB40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4830FA9120C0F2B1000AB40D /* Project object */;
+}
